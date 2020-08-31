@@ -188,14 +188,14 @@ li a {
 @media only screen and (min-width: 767px) {
     .form-max-container {
         position: absolute;
-        bottom: 45%;
+        bottom: 35%;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .form-max-container {
         position: absolute;
-        bottom:  45%
+        bottom:  35%
     }
 }
 
