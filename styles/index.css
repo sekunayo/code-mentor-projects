@@ -125,19 +125,23 @@ li a {
     box-shadow: 1px 1px 20px rgb(139, 139, 139);
     padding: 20px 0px;
     display: flex;
+
 }
 @media only screen  and (max-width: 767.98px) {
     .form-container {
         height: auto;
-        width: 80%;
-
+        width: 85%;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 @media only screen and (min-width: 767px) {
     .form-container {
         height: auto;
-        width: 50%;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -148,22 +152,33 @@ li a {
 
     }
 }
+@media only screen  and (max-width: 767.98px) {
+    .space{
+        margin-top: 0px;
+    }
+}
 
+@media only screen and (min-width: 767px) {
+    .space{
+        margin-top: 80px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .space{
+        margin-top: 80px !important;
+    }
+}
 .form-max-container{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.space{
-    margin-top: 80px !important;
-}
 
 @media only screen  and (max-width: 767.98px) {
     .form-max-container {
-        position: absolute;
-        bottom:  0;
-        top:30%;
+        position: static;
         margin-top: 0px;
 
 
@@ -173,7 +188,7 @@ li a {
 @media only screen and (min-width: 767px) {
     .form-max-container {
         position: absolute;
-        bottom: 40%;
+        bottom: 45%;
     }
 }
 
@@ -311,32 +326,30 @@ form {
         flex-direction: row;
     }
 }
-
-
 /* extra small devices */
 @media only screen and (max-width: 575.98px) {
-    .form-2{
+    .form-2 {
         display: none;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-    .form-2 {
+    .form-2{
         display: none;
     }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-    .form-2 {
+    .form-2{
         display: none;
-     }
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    .form-2 {
+    .form-2{
         display: flex;
         flex-direction: row;
     }
@@ -344,9 +357,10 @@ form {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .form-2 {
+    .form-2{
         display: flex;
-        flex-direction: row;    }
+        flex-direction: row;
+    }
 }
 
 /* -- first section-article section  */
