@@ -3,7 +3,7 @@
 /*  header and navigation section */
 
 .header-container {
-    background-image: url("/images/Group13.png");
+    background-image: url("../images/Group13.png");
     min-width: 100%;
     width: auto;
     height: 400px;
@@ -414,7 +414,7 @@ form {
 /* carousel section  */
 
 .about-container {
-    background-image: url("/images/Group13.png");
+    background-image: url("../images/Group13.png");
     min-width: 100%;
     width: auto;
     object-fit: cover;

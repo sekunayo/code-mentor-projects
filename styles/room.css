@@ -4,7 +4,7 @@ body{
 /* header and navigavtion section */
 
 .header-container{
-    background-image: url("/images/Group13.png");
+    background-image: url("../images/Group13.png");
     min-width: 100%;
     width: auto;
     object-fit: cover;
